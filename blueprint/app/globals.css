@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b1120;
+  --text-color: #fff;
+  --accent: #6366f1;
+  --background-grey:#1182;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #fff;
+    --text-color: #000;
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 5px; 
+  border-radius:3px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: var(--background-grey); 
+}
+
+::-webkit-scrollbar-thumb {
+  background:var(--background-grey); 
+  border-radius: 5px;  
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent); 
+}
+
+
+.dark{
+  --background: #fff;
+    --text-color: #000;
+}
+body {
+  padding:20px;
+  background: var(--background);
+  color: var(--text-color);
+  font-family: var(--font-inter);
+  }
+
+h1,h2{
+  font-family: var(--font-poppins);
+  font-size:32px;
+  font-weight:700;
+}
+h1::after{
+  content: '';
+  position: absolute;
+  bottom:5px;
+  width:50%;
+  height:2px;
+  left:50px;
+  background-color: var(--accent);
+}
+header{
+  background: var(--background-grey);
+  padding:12px 32px 5px 32px;
+}
+.accent{
+  color:var(--accent)
+}
+
+.btn-primary{
+  cursor:pointer;
+  background-color:var(--accent);
+  border-radius: 20px;
+  width:100px;
+}
+.card{
+  background-color: var(--background-grey);
+  padding:16px;
+}
+.header{
+  z-index:999;
+}
+.card-container{
+  height:200px;
+}
+.card-left-parents{
+  width:100%;
+  background-color: var(--accent);
+}
+.card-left-parent:nth-child(1){
+  width:50%;
+}
+.card-left-parent:nth-child(1){
+  width:25%;
+}
+.match-card{
+  background-color: var(--background-grey);
+  border-radius:5px;
+}
