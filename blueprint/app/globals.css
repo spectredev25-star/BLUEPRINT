@@ -65,6 +65,7 @@ h1::after{
 header{
   background: var(--background-grey);
   padding:12px 32px 5px 32px;
+  z-index: 999;
 }
 .accent{
   color:var(--accent)

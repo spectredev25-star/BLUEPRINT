@@ -22,8 +22,10 @@ export default function Header(){
                     </Link>
                 </nav>
                 <div>
-                    <ThemeToggle />
-                    <button type="button" className='btn-primary p-2 float-right'>LOG IN</button> 
+                <ThemeToggle />
+                <Link href='/login'>
+                <button type="button" className='btn-primary p-2 float-right'>LOG IN</button>
+                </Link> 
                 </div>
             </div>
         </header>
