@@ -101,3 +101,18 @@ header{
   background-color: var(--background-grey);
   border-radius:5px;
 }
+.sidebar{
+  background-color: var(--background-grey);
+  width:150px;
+}
+.sidebar p{
+  margin-bottom: 20px;
+}
+.topbar{
+  left:50%;
+  background-color: var(--background-grey);
+  border-radius:50px;
+}
+.welcome-card{
+  left:180px;
+}

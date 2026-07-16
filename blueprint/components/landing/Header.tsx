@@ -9,15 +9,15 @@ export default function Header(){
                 <Link href = '/'>BLUEPRINT</Link>
                 <nav className='flex items-center gap-6'>
                     <Link href='/'> 
-                    <Home className='float' color="#3b82f6" size={24} strokeWidth={1.5} />
+                    <Home className='float' color="#6366f1#3b82f6" size={24} strokeWidth={1.5} />
                     Home
                     </Link>
                     <Link href='/'>
-                    <User className='float' color="#3b82f6" size={24} strokeWidth={1.5} />
+                    <User className='float' color="#6366f1" size={24} strokeWidth={1.5} />
                     Profile
                     </Link>
                     <Link href='/'>
-                    <Bell className='float' color="#3b82f6" size={24} strokeWidth={1.5} />
+                    <Bell className='float' color="#6366f1" size={24} strokeWidth={1.5} />
                     Notification
                     </Link>
                 </nav>
