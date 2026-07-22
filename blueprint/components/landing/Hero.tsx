@@ -5,6 +5,7 @@ export default function Homepage() {
     <section className="flex  items-center justify-center relative mb-0">
 <div style={{ width: '100%', height: '600px', position: 'relative' }}>
   <Strands
+  style={[]}
     colors={["#F97316","#7C3AED","#6366f1"]}
     count={3}
     speed={0.5}
@@ -23,7 +24,7 @@ export default function Homepage() {
     dispersion={1}
     glassSize={1}
     hueShift={0}
-    style={[]}
+    
 />
 </div>
         <div className='absolute items-center flex inset-0 justify-center'>
