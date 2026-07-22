@@ -6,25 +6,20 @@ export default function Header(){
     return(
         <header className='header fixed w-screen top-0 left-0'>
             <div className='grid grid-cols-3'>
-                <Link href = '/'>BLUEPRINT</Link>
+                <Link href = '/'>Schorlar MatchAI</Link>
                 <nav className='flex items-center gap-6'>
                     <Link href='/'> 
-                    <Home className='float' color="#6366f1#3b82f6" size={24} strokeWidth={1.5} />
+                    <Home className='float' color="#6366f1" size={24} strokeWidth={1.5} />
                     Home
-                    </Link>
-                    <Link href='/'>
-                    <User className='float' color="#6366f1" size={24} strokeWidth={1.5} />
-                    Profile
-                    </Link>
-                    <Link href='/'>
-                    <Bell className='float' color="#6366f1" size={24} strokeWidth={1.5} />
-                    Notification
                     </Link>
                 </nav>
                 <div>
                 <ThemeToggle />
                 <Link href='/login'>
-                <button type="button" className='btn-primary p-2 float-right'>LOG IN</button>
+                <button type="button" className='btn-primary p-2 float-right mr-8'>LOG IN</button>
+                </Link> 
+                 <Link href='/register'>
+                <button type="button" className='btn-primary p-2 float-right'>SIGN UP</button>
                 </Link> 
                 </div>
             </div>

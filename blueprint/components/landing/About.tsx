@@ -4,20 +4,20 @@ import { CircleUser, ScanSearch, GraduationCap} from 'lucide-react';
 
 export default function About(){
     return(
-        <section className='mt-32'>
+        <section className='mt-32 mb-10'>
             <div className='flex justify-center items-center mb-6'>
-                <h1 className='relative'>How Blueprint Works?</h1>
+                <h1 className='relative'>How Scholar MatchAI Works?</h1>
             </div>
             <div className="grid grid-cols-3 gap-4">
-                <div className='card'> 
+                <div className='card cursor-pointer'> 
                     <h2>Profile Creation <CircleUser className='float inline' color="#6366f1" size={24} strokeWidth={1.5} /></h2>
                     <p>Sign up on blueprint and fill profile details with correct informations.</p>
                 </div>
-                <div className='card'>
+                <div className='card cursor-pointer'>
                     <h2>Eligibility Analysis <ScanSearch className='float inline' color="#6366f1" size={24} strokeWidth={1.5} /></h2>
                     <p>We analyze your profile information and check scholarship requirements</p>
                 </div>
-                <div className='card'>
+                <div className='card cursor-pointer'>
                     <h2>Personalized Scholarships <GraduationCap className='float inline' color="#6366f1" size={24} strokeWidth={1.5} /></h2>
                     <p>Get scholarships that fits your information..</p>
                 </div>

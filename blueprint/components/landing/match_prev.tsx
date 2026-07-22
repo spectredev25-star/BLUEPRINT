@@ -19,7 +19,7 @@ export default function Match_prev(){
                 </div>
                  <div className='match-card flex justify-center items-center p-4'>
                     <div>
-                    <h5>OJAH FOUNDATION SCHOLARSHIP</h5>
+                    <h5>THE BRIDGE PROGRAM </h5>
                     <h5>Match score</h5>
                     <h5>&#10003; GPA match</h5>
                     <h5>&#10003; Country match</h5>
@@ -29,7 +29,7 @@ export default function Match_prev(){
                 </div>
                  <div className='match-card flex justify-center items-center p-4'>
                     <div>
-                    <h5>OJAH FOUNDATION SCHOLARSHIP</h5>
+                    <h5>TECH CRUSH SCHOLARSHIP</h5>
                     <h5>Match score</h5>
                     <h5>&#10003; GPA match</h5>
                     <h5>&#10003; Country match</h5>

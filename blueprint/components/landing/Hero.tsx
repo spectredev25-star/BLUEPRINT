@@ -3,7 +3,7 @@ import Strands from './Strands';
 export default function Homepage() {
   return (
     <section className="flex  items-center justify-center relative mb-0">
-<div style={{ width: '100%', height: '300px', position: 'relative' }}>
+<div style={{ width: '100%', height: '600px', position: 'relative' }}>
   <Strands
     colors={["#F97316","#7C3AED","#6366f1"]}
     count={3}
@@ -23,12 +23,11 @@ export default function Homepage() {
     dispersion={1}
     glassSize={1}
     hueShift={0}
-    style={{width:'100%',height:'100%'}}
 />
-    </div>
+</div>
         <div className='absolute items-center flex inset-0 justify-center'>
-        <h2 className='relative'>Find Scholarships That Actually Match You.</h2>
-        <p className='relative mt-32'>Blueprint analyzes your academic profile, preferred country <br/>
+        <h2 className='ml-4'>Find Scholarships That Actually Match You.</h2>
+        <p className='relative mt-32'>Scholar MatchAI analyzes your academic profile, preferred country <br/>
         and eligibility to recommend scholarships you are most likely to qualify for.
         </p>
       </div>

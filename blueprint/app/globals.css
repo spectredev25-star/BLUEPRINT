@@ -53,17 +53,9 @@ h1,h2{
   font-size:32px;
   font-weight:700;
 }
-h1::after{
-  content: '';
-  position: absolute;
-  bottom:5px;
-  width:50%;
-  height:2px;
-  left:50px;
-  background-color: var(--accent);
-}
+
 header{
-  background: var(--background-grey);
+  background: var(--background);
   padding:12px 32px 5px 32px;
   z-index: 999;
 }
@@ -87,6 +79,10 @@ header{
 .card-container{
   height:200px;
 }
+.card:hover{
+  transform: scale(1.02);
+  transition:all ease 400ms
+}
 .card-left-parents{
   width:100%;
   background-color: var(--accent);
@@ -100,6 +96,28 @@ header{
 .match-card{
   background-color: var(--background-grey);
   border-radius:5px;
+  position: relative;
+}
+.match-card::before{
+  content:'➡';
+  width: 0px;
+  height:30px;
+  border-radius:50%;
+  background-color: var(--background-grey);
+  right:0px;
+  position: absolute;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:700;
+}
+.match-card:hover::before{
+  content:'⬅';
+  position: absolute;
+  transition: all ease 400ms;
+  background-color: var(--accent);
+  width:30px;
 }
 .sidebar{
   background-color: var(--background-grey);
@@ -115,4 +133,37 @@ header{
 }
 .welcome-card{
   left:180px;
+}
+.sign-card form{
+  background-color: var(--background-grey);
+  border-radius:10px;
+  width:400px;
+  height:400px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up div input{
+  background-color: var(--background-grey);
+  border-radius:2px;
+  width: 90%;
+  margin-right: 10px;
+  padding: 10px;
+  border:1px solid var(--accent)
+}
+.log-in button{
+  background-color: var(--accent);
+  border-radius: 10px;
+  padding: 10px;
+  width:200px;
+}
+.log-in button:hover{
+  translate: scale(1.03);
+}
+.dashboard{
+  margin-left: 80px;
+}
+.info-edit-box div{
+  margin-top: 10px;
 }

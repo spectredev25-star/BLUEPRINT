@@ -17,15 +17,12 @@ export async function login(formData: FormData) {
     email,
     password,
   })
-
-  // If credentials don't match, send user back with an explicit error URL parameter
   if (error) {
     redirect('/login?error=Could not authenticate user')
   }
 
-  // Clear cache filters to safely sync login states across your layouts
   revalidatePath('/', 'layout')
   
   // Send the authenticated user to your main layout landing or workspace dashboard
-  redirect('/') 
+  redirect('/Dashboard_home') 
 }

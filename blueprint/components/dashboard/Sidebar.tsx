@@ -1,4 +1,5 @@
 import Links from 'next/link'
+
 export default function SideBar(){
     return(
         <section className="fixed left-0 top-0 pt-32 pl-4 sidebar flex  align-middle h-screen">
@@ -15,7 +16,7 @@ export default function SideBar(){
                 Applications
                 </Links>
                 </p>
-                <p><Links href='/'>
+                <p><Links href='/profile_update'>
                 Profile
                 </Links>
                 </p>
