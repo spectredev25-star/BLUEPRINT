@@ -23,6 +23,7 @@ export default function Homepage() {
     dispersion={1}
     glassSize={1}
     hueShift={0}
+    style={[]}
 />
 </div>
         <div className='absolute items-center flex inset-0 justify-center'>
