@@ -33,6 +33,9 @@ export async function saveProfile(formData: FormData) {
       department,
       cgpa,
       country,
+      level,
+      department,
+      preffered_country
     });
 
   if (error) {
