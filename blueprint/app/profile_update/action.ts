@@ -37,7 +37,7 @@ const preferred_country = formData.get("preferred_country") as string;
       cgpa,
       country,
       level,
-      department,
+      faculty,
       preffered_country
     });
 
