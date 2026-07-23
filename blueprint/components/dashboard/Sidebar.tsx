@@ -2,7 +2,7 @@ import Links from 'next/link'
 
 export default function SideBar(){
     return(
-        <section className="fixed left-0 top-0 pt-32 pl-4 sidebar flex  align-middle h-screen">
+        <section className="hidden lg:fixed left-0 top-0 pt-32 pl-4 sidebar flex  align-middle h-screen">
             <nav>
                 <p><Links href='/'>
                 Dashboard

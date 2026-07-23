@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="en" suppressHydrationWarning>
-      <body className= {`${inter.variable} ${poppins.variable} antialiased min-h-full flex flex-col`}>
+      <body className= {`${inter.variable} ${poppins.variable} antialiased min-h-full min-w-fit`}>
         <ThemeProvider>
            {children}
         </ThemeProvider>

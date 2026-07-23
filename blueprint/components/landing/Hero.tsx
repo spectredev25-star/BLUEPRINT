@@ -2,8 +2,8 @@ import Strands from './Strands';
 
 export default function Homepage() {
   return (
-    <section className="flex  items-center justify-center relative mb-0">
-<div style={{ width: '100%', height: '600px', position: 'relative' }}>
+    <section className="block items-center justify-center relative p-0">
+<div style={{ width: '100%', height: '600px', position: 'relative' }} className='w-full'>
   <Strands
   style={[]}
     colors={["#F97316","#7C3AED","#6366f1"]}

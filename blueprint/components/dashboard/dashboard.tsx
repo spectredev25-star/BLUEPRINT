@@ -13,22 +13,14 @@ export default function Dashboard({ profile }: DashboardProps) {
 
       <Sidebar />
 
-      {/* Main Content */}
       <main className="flex-1 overflow-y-auto">
 
-        {/* Top Navigation */}
         <Topbar />
-
-        {/* Dashboard Content */}
         <div className="p-6 space-y-6">
-
-          {/* Welcome Section */}
           <Welcome profile={profile} />
 
-          {/* Student Profile */}
           <Profile profile={profile} />
 
-          {/* Scholarship Matches */}
           <section className=" rounded-xl shadow-sm p-6">
             <h2 className="text-xl font-semibold mb-4">
               Recommended Scholarships

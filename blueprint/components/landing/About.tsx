@@ -8,7 +8,7 @@ export default function About(){
             <div className='flex justify-center items-center mb-6'>
                 <h1 className='relative'>How Scholar MatchAI Works?</h1>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:grid-cols-2 md-grid-2">
                 <div className='card cursor-pointer'> 
                     <h2>Profile Creation <CircleUser className='float inline' color="#6366f1" size={24} strokeWidth={1.5} /></h2>
                     <p>Sign up on blueprint and fill profile details with correct informations.</p>
