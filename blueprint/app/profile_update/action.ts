@@ -21,6 +21,9 @@ export async function saveProfile(formData: FormData) {
   const department = formData.get("department") as string;
   const cgpa = Number(formData.get("cgpa"));
   const country = formData.get("country") as string;
+  const faculty = formData.get("faculty") as string;
+const level = Number(formData.get("level"));
+const preferred_country = formData.get("preferred_country") as string;
 
   console.log("Current user:", user);
   console.log("User ID:", user?.id);
