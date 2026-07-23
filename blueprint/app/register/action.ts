@@ -26,7 +26,7 @@ export async function signup(formData: FormData) {
   }
 
   revalidatePath('/', 'layout')
-  redirect('/Dasshboard_home') 
+  redirect('/Dashboard_home') 
 
  
 }
